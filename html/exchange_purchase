@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <!--<标题>-->
+    <meta charset="utf-8">
+    <title> 萤火闲置 </title>
+    <link rel="shortcut icon" href="../img/logo.png" />
+    <link  rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link  rel="stylesheet" type="text/css" href="../css/base.css" />
+    
+  </head>
+  
+  <body>
+     <!-- 顶部-->
+    <div class="header_con ">
+              <div class="welcome fl ">欢迎来到萤火闲置!</div>
+              <div v-else class="login_btn ">
+                <a href="../html/login.html">登录</a>
+                <span>|</span>
+                <a href="../html/register.html">注册</a>
+              </div>
+    </div>
+	  <div style=" width:1200px;margin:auto ">
+      <!--logo-->
+      <div class="search_bar clearfix ">
+            <a href=" " class="logo fl "><img src="../img/logo.png "></a>
+            <a class="font_logo ">萤火闲置</a>
+            <div class="search_wrap ">
+                <form method="get " action=" " class="search_con ">
+                  <input type="text " class="input_text fl " placeholder="一键搜索 "/>
+                  <input type="image"  class="input_btn fr " src="../img/search.png"/>
+                </form>
+            </div>
+      </div>      
+  
+  
+		  <div class="layout nav " bosszone="mininav ">
+		    <ul class="home_page">
+		         <li><a href="index.html" target="_self " >首页</a></li>
+		        <li><a href="donate.html" target="_blank ">我要捐</a></li>
+		        <li><a href="exchange_purchase.html" target="_blank " style="color: red";>萤火互换</a></li>
+		        <li><a href="glow_worm.html" target="_blank ">萤火公益</a></li>
+		        <li><a href="user centure.html" target="_blank ">萤火空间</li>
+		        <li><a href="campus_welfare.html" target="_blank "  >校园公益</a></li>
+		        <li><a href="partner.html" target="_blank ">合作伙伴</a></li>
+		    </ul>
+	  	</div>
+	  	
+  	<!--兑换窗口-->
+  	<div class="me_exge">
+  		<h2 class="h2Title">
+  			您可选互换的物品</h2>
+  			<ul class="clearfix">
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/exge1.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">水彩笔</p>
+  						<p class="p2">用过一次，基本全新</p>
+  						<a href="exch-don.html">
+						<input type="button" value="立即互换"class="btn"></a> 
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/exge2.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">滑板</p>
+  						<p class="p2">滑过几次，毕业用不着了。</p>
+  						<a href="exch-don.html">
+						<input type="button" value="立即互换"class="btn"></a>
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/exge3.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">图书</p>
+  						<p class="p2">看完想分享给更多爱书的朋友</p>
+  						<a href="exch-don.html">
+						<input type="button" value="立即互换"class="btn"></a>
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/exge4.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">羽毛球拍<p>
+  						<p class="p2">用的感觉手感很好，想出了换新的。</p>
+  						<a href="exch-don.html">
+  						<input type="button" value="立即互换"class="btn"></a>	
+  					</div>
+  				</li>
+  			</ul>
+  			<div class="arrow">
+  				<a href="#" class="a_left"></a>
+  				<a href="#" class="a_right"></a>
+			</div>
+  
+  	
+	  	<!--义卖栏  	-->
+	  	<div class ="sell_mu">
+	  		<h2 class="h2Title">您可以购买的义卖小物</h2>
+	  		<ul>
+	  			<ul class="clearfix">
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell1.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">收纳包</p>
+  						<p class="p2">价格：<span style="color: red;">10元</span></p>
+  						<a href="sell-don.html">
+						<input type="button" value="立即购买"class="btn"></a> 
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell2.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">耳机</p>
+  						<p class="p2">价格：<span style="color: red;">20元</span></p>
+  						<a href="sell-don.html">
+						<input type="button" value="立即购买"class="btn"></a>
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell3.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">健身器械</p>
+  						<p class="p2">价格：<span style="color: red;">100元</span></p>
+  						<a href="donate.html">
+						<input type="button" value="立即购买"class="btn"></a>
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell4.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">手表<p>
+  						<p class="p2">价格：<span style="color: red;">30元</span></p>
+  						<a href="sell-don.html">
+  						<input type="button" value="立即购买"class="btn"></a>	
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell5.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">玩偶</p>
+  						<p class="p2">价格：<span style="color: red;">20元</span></p>
+  						<a href="sell-don.html">
+						<input type="button" value="立即购买"class="btn"></a> 
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell6.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">排球</p>
+  						<p class="p2">价格：<span style="color: red;">50元</span></p>
+  						<a href="sell-don.html">
+						<input type="button" value="立即购买"class="btn"></a>
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell7.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">全新便签</p>
+  						<p class="p2">价格：<span style="color: red;">5元</span></p>
+  						<a href="sell-don.html">
+						<input type="button" value="立即购买"class="btn"></a>
+  					</div>
+  				</li>
+  				<li>
+  					<div>
+	  					<a href="#">
+	  						<img src="../img/cwelfare/sell8.png" alt="">
+	  					</a>
+  					</div>
+  					<div class="des">
+  						<p class="p1">笔袋和笔<p>
+  						<p class="p2">价格：<span style="color: red;">20元</span></p>
+  						<a href="sell-don.html">
+  						<input type="button" value="立即购买"class="btn"></a>	
+  					</div>
+  				</li>
+  			</ul>
+	  	</div>
+	  	<br/>	<br/> 	<br/>
+	  	<div class="pagenation">
+					<a href="#"><上一页</a>
+					<a href="#" class="active">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">下一页></a>
+			</div>
+	  	<br/>	<br/> 	<br/>
+	  	<footer>
+        <div class="connect"><h3>联系我们</h3></div> 
+        	<a href="          ">网站地址</a>
+        	        <span>|</span>
+        	<a href="          ">关于我们</a>
+        	<span>|</span>
+        	<a href="mailto:ls383220083@gmail.com?subject=问题反馈&body=问题描述"&title="点击发送">反馈建议</a>
+        
+            <address class="address">
+                                          本站地址：沈阳经济技术开发区沈辽西路111号沈阳工业大学 
+            </address>
+            <p> &copy;2019 萤火闲置</p>
+    </footer>
+	</div>
+	
+	
+	</body>
+</html>
