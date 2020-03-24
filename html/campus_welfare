@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <!--<标题>-->
+    <meta charset="utf-8">
+    <title> 萤火闲置 </title>
+    <link rel="shortcut icon" href="../img/logo.png" />
+    <link  rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link  rel="stylesheet" type="text/css" href="../css/base.css" />
+    
+  </head>
+  
+  <body>
+    <!-- 顶部-->
+    <div class="header_con ">
+              <div class="welcome fl ">欢迎来到萤火闲置!</div>
+              <div v-else class="login_btn ">
+                <a href="../html/login.html">登录</a>
+                <span>|</span>
+                <a href="../html/register.html">注册</a>
+              </div>
+    </div>
+	  <div style=" width:1200px;margin:auto ">
+      <!--logo-->
+      <div class="search_bar clearfix ">
+            <a href=" " class="logo fl "><img src="../img/logo.png "></a>
+            <a class="font_logo ">萤火闲置</a>
+            <div class="search_wrap ">
+                <form method="get " action=" " class="search_con ">
+                  <input type="text " class="input_text fl " placeholder="一键搜索 "/>
+                  <input type="image"  class="input_btn fr " src="../img/search.png"/>
+                </form>
+            </div>
+      </div>      
+  
+  
+		  <div class="layout nav " bosszone="mininav ">
+		    <ul class="home_page">
+		        <li><a href="index.html" target="_blank" >首页</a></li>
+		        <li><a href="donate.html" target="_blank ">我要捐</a></li>
+		        <li><a href="glow_worm.html" target="_blank ">萤火公益</a></li>
+		        <li><a href="user centure.html" target="_blank ">萤火空间</li>
+		        <li><a href="campus_welfare.html" target="_blank "  style="color: red";>校园公益</a></li>
+		        <li><a href="partner.html" target="_blank ">合作伙伴</a></li>
+		    </ul>
+	  	</div>
+	  	
+			<div class="cap_news">校园公益</div>
+	  		<div class="messages">
+	  		<ul>
+	  			<li><img src="../img/campus/camp1.png" art="">
+						<h5>支教的故事：师授如春雨，泽润在心间。</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MzA5NTEzNzcwOQ==&mid=2652279866&idx=1&sn=2dec6a42e7a1d038c2f22152517f5d4d&chksm=8ba1cef8bcd647ee405dbe9150f876f667d076064fe0a730e576831f14d7d55fac9fe230937c&mpshare=1&scene=1&srcid=0121auf8E0lHguvL3NLy8UdG#rd">朵朵开志愿者协会</a></p>
+				</li>	
+				<li><img src="../img/campus/camp2.png" art="">
+						<h5>青协日常志愿者活动</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MzA5NTEzNzcwOQ==&mid=2652279866&idx=1&sn=2dec6a42e7a1d038c2f22152517f5d4d&chksm=8ba1cef8bcd647ee405dbe9150f876f667d076064fe0a730e576831f14d7d55fac9fe230937c&mpshare=1&scene=1&srcid=0121auf8E0lHguvL3NLy8UdG#rd">青年志愿者协会</a></p>
+				</li>	
+				<li><img src="../img/campus/camp3.png" art="">
+						<h5>本周志愿活动</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MzA5NTEzNzcwOQ==&mid=2652279859&idx=1&sn=ee0f206d58767d04a68700830bdc4c8b&chksm=8ba1cef1bcd647e74528f930813e8d5fea40693f269846ae8431fb364a200523fbd20a79d005&mpshare=1&scene=1&srcid=0121Fhm7uqneOATelFTH9vqb#rd">青年志愿者协会</a></p>
+				</li>	
+				<li><img src="../img/campus/camp4.png" art="">
+						<h5>盲校活动</h5>
+						<p><a herf="http://mp.weixin.qq.com/s?__biz=MzA5NTEzNzcwOQ==&mid=2652279866&idx=1&sn=2dec6a42e7a1d038c2f22152517f5d4d&chksm=8ba1cef8bcd647ee405dbe9150f876f667d076064fe0a730e576831f14d7d55fac9fe230937c&mpshare=1&scene=1&srcid=0121auf8E0lHguvL3NLy8UdG#rd">青年志愿者协会</a></p>
+				</li>	
+				<li><img src="../img/campus/camp5.png" art="">
+						<h5>支教活动：山有木兮木有枝，心悦君兮君不知。还是很想跑很远的路，去见见你们，享受被你们迎面跑来一把深拥的感觉。</h5>
+						<p><a herf="http://mp.weixin.qq.com/s?__biz=MzA4NjQ0MDIwMg==&mid=2650298815&idx=2&sn=a8703a0c934b4fd984d128085903904c&chksm=87c459dab0b3d0cc40715514136f1f2f05174c81c607344d0f21ee155ee8c7c6c9d2c63eac38&mpshare=1&scene=1&srcid=0121OezOmCKigGYmt6KBDDZc#rd">朵朵开志愿之协会</a></p>
+				</li>	
+				<li><img src="../img/campus/camp6.png" art="">
+						<h5>支教活动:不见又思量，见了还依旧，给你我的手，来温暖守候，我们就这样一直向前走，大手拉小手……</h5>
+						<p><a herf="http://mp.weixin.qq.com/s?__biz=MzA4NjQ0MDIwMg==&mid=2650298796&idx=1&sn=39e43ab439b0e078e4c87bee8fd06882&chksm=87c459c9b0b3d0df07b5659d715f4a8919767bfa155b3d2e19ab2ace56f622fa02873de41fdb&mpshare=1&scene=1&srcid=0121KZTMnue15n4fBy8A2IEL#rd">朵朵开志愿者协会</a></p>
+				</li>	
+			</ul>
+			
+			<div class="social_news">社会公益</div>
+			<div class="messages">
+	  		<ul>
+	  			<li><img src="../img/gongyi3.png" art="">
+						<h5>2016年十二月初，在宁波志交会期间套开的中国青年志愿者协会常务理事会上，有理事朋友在会上提议，应该组团去看望基层一线的西部计划志愿者。</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTA4NTc4OQ==&mid=2652228684&idx=2&sn=f7255d9e30022b59f0be623bfe6c9caf&chksm=bd1c80fe8a6b09e867104503c28fc7356b77c820d7ba96602899fe3a6d796dc4f2d168318d9f&mpshare=1&scene=1&srcid=0117rI4Koa6aCAgkUM941pk5#rd">黑田麦土</a></p>
+				</li>	
+				<li><img src="../img/campus/social1.png" art="">
+						<h5>爆竹声不断在耳边回响……。
+我们春节的记忆中，“年货”依然有着独特的味道。</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MzU4OTY1NDIzNw==&mid=2247483979&idx=1&sn=8b098e5d60510ce47481a1c3ffaee757&chksm=fdcb73f9cabcfaef57e970d1482bd76c18307c36833ae52de19ec171c0ccc7b41d646eca3a97&mpshare=1&scene=1&srcid=0121FEouMdt81Fk8DA6NhkpJ#rd">沈阳红星公益</a></p>
+				</li>	
+				<li><img src="../img/campus/social2.png" art="">
+						<h5>“义仓”--2019“善联送万家 欢乐幸福年”期待您</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MzA5MjA1ODE1MA==&mid=2656482755&idx=1&sn=f4081536b9850f9157f526e292aa4a6b&chksm=8bd0f28abca77b9c363cea7091f63cdd2b715579411a6dfab855092e388113571afa4ddcf270&mpshare=1&scene=1&srcid=0121CpzcqAhRxlevsszBvK3m#rd">沈阳市青春志愿者协会</a></p>
+				</li>	
+				<li><img src="../img/campus/social3.png" art="">
+						<h5>习近平为志愿者点赞：你们所做的事业会载入史册</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTA4NTc4OQ==&mid=2652228725&idx=1&sn=678bd178c25d3faa7d851f17277e3817&chksm=bd1c80c78a6b09d1f8925952cb5039c504dafbc76d69860321dcd6517ea27f43df92f647a976&mpshare=1&scene=1&srcid=0121R8J3ogBsBFUOozdohne4#rd">中国青年志愿者</p>
+				</li>
+				<li><img src="../img/campus/social4.png" art="">
+						<h5>冬日里的勃勃生机 | 驻村青年说</h5>
+						<p><a href="http://mp.weixin.qq.com/s?__biz=MzAxMDE2NTM1Mg==&mid=2649948608&idx=1&sn=cc4396902f8de598e59258583d1e5c83&chksm=83532cc7b424a5d19b2f5eec8908c73fe76119d91ede21cc4439d1c95126ef080700aff66789&mpshare=1&scene=1&srcid=0121j25ommhtRny4iFrOkT9B#rd">黑土麦田</a></p>
+				</li>	
+				<li><img src="../img/campus/social5.png" art="">
+						<h5>青椒之声 | 苗壮——作为乡村教师，要时刻守护好心中那片土地</h5>
+						<p><a href="https://mp.weixin.qq.com/s/B2eiaJlnG_z0IahyNIqGxQ">乡村青年教师社会支持公益计划  </p>
+				</li>
+				
+			</ul>
+		
+			
+		<!--	<页数>-->
+			<div class="pagenation">
+					<a href="#"><上一页</a>
+					<a href="#" class="active">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">下一页></a>
+			</div>
+				
+	  	</div>
+	  	<hr/>
+	<footer>
+        <div class="connect"><h3>联系我们</h3></div> 
+        	<a href="          ">网站地址</a>
+        	        <span>|</span>
+        	<a href="          ">关于我们</a>
+        	<span>|</span>
+        	<a href="mailto:ls383220083@gmail.com?subject=问题反馈&body=问题描述"&title="点击发送">反馈建议</a>
+        
+            <address class="address">
+                                          本站地址：沈阳经济技术开发区沈辽西路111号沈阳工业大学 
+            </address>
+            <p> &copy;2019 萤火闲置</p>
+    </footer>
+  
+	</body>
+</html>
