@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>萤火闲置-萤火空间</title>
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="../css/base.css" />
+	</head>
+	<body>
+    <div style=" width:1200px;margin:auto "> 
+		<!-- 顶部--> 
+      <div class="header_con">
+		<div class="header">
+			<div class="welcome fl">欢迎来到萤火闲置!</div>
+			<div class="fr">
+				<div class="login_info fl">
+					欢迎您：<em>    </em>
+				</div>
+				<div class="login_btn fl">
+					<a href="../html/login.html">登录</a>
+					<span>|</span>
+					<a href="../html/register.html">注册</a>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<!--搜索栏-->
+	<div class="search_bar clearfix">
+	  	<a href="index.html" class="logo fl"><img src="../img/logonew.png" height="84" /></a>	
+    	<div class="search_wrap ">
+            <form method="get" action=" " class="search_con ">
+            <input type="text" class="input_text fl " placeholder="一键搜索 ">
+            <input type="image"  class="input_btn fr " src="../img/search.png "/>
+            </form>
+        </div>		
+	</div> 
+      <div class="user_centure clearfix">
+      	
+		<div class="user_centure_left_list clearfix">
+			<h3>萤火空间-用户中心</h3>
+			<ul>
+				<li><a href="       " class="active">· 个人信息</a></li>
+				<li><a href="       " >· 我的捐赠记录</a></li>
+			</ul>
+		</div>
+		<div class="user_centure_right clearfix ">
+		<div class="user_centure_right_list clearfix">
+			<div class="touxiang"><img href="../img/erweima.jpg" >头像</div>
+				<div class="info_con clearfix">
+				<h3 class="common_title2">用户信息</h3>
+				
+				<div class="centure_right_con">			
+                    <form>
+                    	
+                    	<div class="top_list">
+                            <label>用户名</label>
+                            <input type="user_ID" name=" ">
+                        </div>
+                        <div class="top_list">
+                            <label>萤火ID</label>
+                            <input type="user_ID" name=" ">
+                        </div>
+                        <div class="top_list">
+                            <label>萤火个签</label>
+                            <input type="geqian" name=" ">
+                        </div>
+                        
+                    </form>
+                </div>
+				</div>	
+		</div>
+		<h3 class="common_title2">我的捐赠</h3>
+				<ul class="order_list_th w002 clearfix">
+					<li class="col01">2019-8-21 17:36:24</li>
+					<li class="col02">订单号：001</li>
+				</ul>
+				<table class="order_list_table w001">
+					<tbody>
+						<tr>
+							<td width="36%">
+								<ul class="order_goods_list clearfix">					
+									<li class="col01"><img src="          "></li>		
+								</ul>
+							</td>
+							<td width="16%">运动套装</td>
+							<td width="16%">x1</td>
+							<td width="16%">暂无描述</td>
+							<td width="16%"><a href="#" class="oper_btn">看看去向</a></td>
+						</tr>
+					</tbody>
+				</table>
+
+					<ul class="order_list_th w002 clearfix">
+					<li class="col01">2019-8-21 17:36:24</li>
+					<li class="col02">订单号：002</li>
+				</ul>
+				<table class="order_list_table w002">
+					<tbody>
+						<tr>
+							<td width="36%">
+								<ul class="order_goods_list clearfix">					
+									<li class="col01"><img src="                 "></li>		
+								</ul>
+							</td>
+							<td width="16%">运动套装</td>
+							<td width="16%">x1</td>
+							<td width="16%">暂无描述</td>
+							<td width="16%"><a href="#" class="oper_btn">看看去向</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	
+	 <hr />
+	<footer>
+     <div class="connect">
+        <h3>联系我们</h3>
+       </div> 
+        	<a href="          ">网站地址</a>
+        	        <span>|</span>
+        	<a href="          ">关于我们</a>
+        	<span>|</span>
+        	<a href="mailto:ls383220083@gmail.com?subject=问题反馈&body=问题描述"&title="点击发送">反馈建议</a>
+            <address class="address">
+                                          本站地址：沈阳经济技术开发区沈辽西路111号沈阳工业大学 
+            </address>
+            <p> &copy;2019 萤火闲置</p>
+   
+    </footer>
+    </div>
+    </body>
+</html>
